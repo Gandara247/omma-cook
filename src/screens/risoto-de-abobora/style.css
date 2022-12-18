@@ -1,0 +1,28 @@
+#root{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main{
+    width: 50%;
+}
+
+#card-risoto-de-abobora{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    /* font-size: large; */
+
+}
+
+.tags{
+    min-width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px ;
+    border: 1px solid var(--bg-button);
+}
+
+

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;   
+    font-size: 16px;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+:root{
+    /* CORES */
+
+    --dark-primary-color: #ffa000;
+    --light-primary-color: #fffecb;
+    --primary-color: #ffc107;
+    --text-and-icons: #212121;
+    --accen-color: #ffc107;
+    --primary-text: #212121;
+    --secondary-tex: #757575;
+    --divider-color: #bdbdbd;
+
+    /* FONTES */
+
+    --font-size-big: 56px;
+    --font-size-larger: 72px;
+    --font-size-md:30px;
+    --bg-button:#176902;
+}
+

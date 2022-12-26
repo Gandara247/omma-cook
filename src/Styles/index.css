@@ -1,22 +1,133 @@
 .generic-section {
     width: 100vw;
-    height: 100vh;
+    height: 70vh;
 }
 
-#receitas-com-afeto{
-    background-image: url('../../assets/images/receitas-com-afeto.png');
+/* #receitas-com-afeto{
+    background-image: url('../../assets/images/slide-um.png');
     background-repeat: no-repeat;
-    position: relative;    
+    position: relative; 
+    width: 1600px;
+    height: 600px;
+    border: solid;
+ 
+} */
+
+.slider{
+    margin: 0 auto;
+    width: 1600px;
+    height: 600px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.40);
+    border-radius: 16px;
 }
+
+.slides{
+    width: 1600px;
+    height: 620px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 100%;
+    position: relative;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 1600px;
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #ffff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 30px;
+}
+
+.manual-btn:hover{
+    background-color: #ffff;   
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0; 
+    transition: 1s;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -100%; 
+    transition: 1s;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -200%; 
+    transition: 1s;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -300%; 
+    transition: 1s;
+}
+
+.navigation-auto div{
+    border: 2px solid #ffc107;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.navigation-auto{ 
+    position: absolute;
+    width: 1600px;
+    margin-top: 520px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 30px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #ffff;
+} 
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #ffff;
+} 
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #ffff;
+} 
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #ffff;
+} 
+
+
+
+
 
 h1{
     font-size:var(--font-size-larger);
-    color: #ffff;
+    color: #ffc107;
     width: 400px;
     position: absolute;
-    top: 16%;
+    top: 40%;
     left: 66%;     
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);     
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.40);     
 }
 
 #card-horizontal{

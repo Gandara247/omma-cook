@@ -3,16 +3,6 @@
     height: 70vh;
 }
 
-/* #receitas-com-afeto{
-    background-image: url('../../assets/images/slide-um.png');
-    background-repeat: no-repeat;
-    position: relative; 
-    width: 1600px;
-    height: 600px;
-    border: solid;
- 
-} */
-
 .slider{
     margin: 0 auto;
     width: 1600px;
@@ -116,10 +106,6 @@
     background-color: #ffff;
 } 
 
-
-
-
-
 h1{
     font-size:var(--font-size-larger);
     color: #ffc107;
@@ -134,19 +120,26 @@ h1{
     display: flex;
     justify-content: space-around;
     width: 100vw;
-}
+    }
 
 .card-receita {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;   
 
+}
+
+.card-receita img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.20);
 }
 
 .card-receita strong{
     font-size:var(--font-size-md); 
     margin: 5px 0px;   
 }
+
+
 
 .card-receita button{
     color: #ffff;

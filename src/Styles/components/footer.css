@@ -1,8 +1,19 @@
 footer{
-    display: flex;
+    display: flex;    
     background-color: var(--dark-primary-color);
     color: #fff;
     align-items: center; 
-    font-weight: 500;   
+    font-weight: 500;
+    margin-top: 20px;      
 }
 
+#footer{
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+#span-footer{
+    margin: 0 auto;
+}

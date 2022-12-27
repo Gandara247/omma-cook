@@ -162,33 +162,40 @@ h1{
     margin-bottom: 50px;
 }
 
-#comer-e-viver{
-    background-image: url(../../assets/images/comer-e-viver.png);
-    background-repeat: no-repeat;
-    position: relative;
-
+.container-footer{
+    margin: 0 auto;
+    width: 1600px;
+    height: 600px;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.40); 
+    position: relative;   
+    
 }
+
 
 #titulo-comer-e-viver{
-    font-size: var(--font-size-big);
-    color: #ffff;
     position: absolute;
-
-    top: 30%;
-    left: 4%;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
-}
-
-#comer-e-viver p{
-    position: absolute;
-    top: 46%;
-    left: 4%;
-    font-size: 24px;
+    top: 20%;
+    left: 5%;
+    font-size: 48px;
     color: #ffff;
     font-weight: 500;
-    width: 500px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
-
+    width: 600px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36); 
 
 }
+
+.comer-e-viver p{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 20px;
+    text-align: justify;
+    width: 530px;
+    font-weight: 500;
+    color: #ffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);  
+
+}
+
 

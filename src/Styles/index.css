@@ -27,6 +27,7 @@
 .slide{
     width: 100%;
     position: relative;
+    transition: 2s;
 }
 
 .manual-navigation{
@@ -55,22 +56,18 @@
 
 #radio1:checked ~ .first{
     margin-left: 0; 
-    transition: 1s;
 }
 
 #radio2:checked ~ .first{
     margin-left: -100%; 
-    transition: 1s;
 }
 
 #radio3:checked ~ .first{
     margin-left: -200%; 
-    transition: 1s;
 }
 
 #radio4:checked ~ .first{
     margin-left: -300%; 
-    transition: 1s;
 }
 
 .navigation-auto div{

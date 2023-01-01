@@ -17,3 +17,16 @@ footer{
 #span-footer{
     margin: 0 auto;
 }
+
+
+#footer-dois{
+    margin-top: 70vh;
+}
+
+footer #footer-pg-dois{
+    display: flex;
+    width: 100vw;
+    align-items: center;    
+
+}
+

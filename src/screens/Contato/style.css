@@ -1,0 +1,16 @@
+#slide-contato{
+    display: flex;
+    position: relative;
+    margin-left: 10%;
+    border: solid;
+    /* box-shadow: 4px 5px 10px 1px rgba(0, 0, 0, 0.40); */
+       
+}
+
+#slide-contato h1{
+    position: absolute;
+    margin: 5%;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.40); 
+    font-size: 76px;
+}
